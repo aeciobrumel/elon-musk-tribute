@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: hsl(222, 100%, 96%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,15 +14,17 @@ body {
 .flex {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .elon-hero {
   color: rgb(255, 255, 255);
+  width: 100%;
   background-color: #000000;
 }
 .elon-hero img {
   max-width: 500px;
 
-  background-color: #0c3caa;
+  background-color: #ffffff;
 }
 .elon-hero-text {
   display: flex;
@@ -29,10 +32,21 @@ body {
   align-items: center;
   justify-content: center;
 }
-.elon-hero-text-desc {
+.elon-hero-text-desc p {
+  margin: 10px;
+  height: auto;
   font-size: large;
-  background-color: #404e6e;
-  opacity: 0.5;
+  align-items: end;
+}
+.cont-elon-hero-text-desc {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.elon-hero-text-desc {
+  width: 100%;
+  background-color: #101d3c;
 }
 .elon-hero h1 {
   font-size: 50px;
