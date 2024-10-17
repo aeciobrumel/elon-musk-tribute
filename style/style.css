@@ -1,9 +1,10 @@
 body {
   margin: 0;
-  background-color: hsl(222, 100%, 96%);
+  background-color: #404e6e;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Poppins", sans-serif;
 }
 .container {
   max-width: 700px;
@@ -45,8 +46,16 @@ body {
   align-items: end;
 }
 .elon-hero-text-desc {
-  width: 100%;
+  display: flex;
+  justify-content: center;
   background-color: #101d3c;
+  color: #ffffff;
+  position: absolute;
+  opacity: 0.8;
+  border-radius: 22px;
+}
+.elon-hero-text-desc p {
+  max-width: 700px;
 }
 .elon-hero h1 {
   font-size: 50px;
@@ -66,6 +75,13 @@ ul li {
 
   border-radius: 100%;
 }
+.more-options-btn:hover {
+  padding: 2px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #b4b4b4;
+}
+
 footer {
   min-height: 100px;
   width: 100%;
@@ -84,7 +100,10 @@ footer {
   background-color: aliceblue;
   border-radius: 50px;
 }
-
+.footer-img img:hover {
+  cursor: pointer;
+  background-color: #b4b4b4;
+}
 .footer-copy {
   display: flex;
   justify-content: center;
@@ -105,4 +124,40 @@ footer {
 .column {
   display: flex;
   flex-direction: column;
+}
+
+.more {
+  background-color: #e3e6e9;
+  height: 39px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.more:hover {
+  box-shadow: 0.5px 0.5px 5px #b4b4b4;
+}
+.feitos {
+  margin-top: 5px;
+
+  font-size: 25px;
+  font-style: normal;
+  list-style: none;
+}
+.more-options {
+  background-color: #f0f1f5;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 500px;
+  display: none;
+  box-shadow: 0.5px 0.5px 5px #b4b4b4;
+  padding: 5px;
+}
+
+#txt1 {
+}
+#btn1:hover {
+}
+
+@media (max-width: 600px) {
 }
