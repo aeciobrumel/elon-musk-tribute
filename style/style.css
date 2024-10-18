@@ -123,10 +123,10 @@ footer {
   align-items: center;
   justify-content: space-between;
   max-width: 500px;
-
   background-color: #101d3c;
   color: #ffffff;
   opacity: 0.8;
+  padding-left: 10px;
 }
 .column {
   display: flex;
